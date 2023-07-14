@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  node:
+  app:
     build: .
     volumes:
       - ./:/usr/src/app
